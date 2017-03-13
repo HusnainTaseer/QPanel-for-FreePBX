@@ -1,0 +1,23 @@
+<module>
+	<rawname>qpanel</rawname>
+	<name>Qpanel</name>
+	<version>1.0.0</version>
+	<publisher>Qpanel</publisher>
+	<candisable>yes</candisable>
+	<canuninstall>yes</canuninstall>
+	<changelog>
+		1.0.0* Original Release
+	</changelog>
+	<description>
+		Provides Queue Satatistics
+	</description>
+	<info>https://github.com/HusnainTaseer/QPanel-for-FreePBX</info>
+	<menuitems>
+                <qpanel>Queue Statistics</qpanel>
+	</menuitems>
+	<depends>
+		<module>core</module>
+		<version>ge2.2</version>
+    </depends>
+	<category>Reports</category>
+</module>
