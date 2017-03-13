@@ -20,3 +20,7 @@ fwconsole moduleadmin install qpanel
 ```
 
 Once it will be installed enable it then you will see there will be another dropdown menu item "Queue Statistics" under Reoprts section. Just click on it and you will be able to see the qpanel dashboard under FreePBX GUI.
+
+```
+fwconsole moduleadmin enable qpanel
+```
